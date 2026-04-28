@@ -1,0 +1,81 @@
+/*
+Theme Name: Saint Paul JR Theme
+Theme URI: https://saintpauljr.com.br
+Author: Equipe Saint Paul JR
+Author URI: https://saintpauljr.com.br
+Description: Tema personalizado para o site da Empresa Júnior Saint Paul, focado em atrair clientes e ser um portfólio.
+Version: 1.0.0
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+Text Domain: saintpauljr
+*/
+
+/*
+-------------------------------------------------------------------------------
+Cores da Identidade Visual:
+Verde: #28a745 (exemplo de verde, ajuste conforme o tom exato)
+Dourado: #ffc107 (exemplo de dourado, ajuste conforme o tom exato)
+Preto: #212529 (exemplo de preto, ajuste conforme o tom exato)
+-------------------------------------------------------------------------------
+*/
+
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif; /* Pode ser alterado para uma fonte minimalista */
+    color: #212529; /* Preto */
+    background-color: #f8f9fa; /* Um cinza bem claro para o fundo */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #28a745; /* Verde */
+}
+
+a {
+    color: #ffc107; /* Dourado */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Exemplo de estilo para o cabeçalho */
+.site-header {
+    background-color: #212529; /* Preto */
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+.site-header h1 {
+    color: #ffffff;
+}
+
+.site-header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.site-header nav ul li {
+    margin-left: 20px;
+}
+
+.site-header nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.site-header nav ul li a:hover {
+    color: #ffc107; /* Dourado */
+}
+
+/* Exemplo de estilo para o rodapé */
+.site-footer {
+    background-color: #212529; /* Preto */
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+}
